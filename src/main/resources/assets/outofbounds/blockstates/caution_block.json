@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "outofbounds:block/caution_block"
+    }
+  }
+}

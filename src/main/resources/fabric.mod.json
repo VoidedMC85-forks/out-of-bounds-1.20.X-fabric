@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "outofbounds",
+	"version": "${version}",
+	"name": "Out of Bounds",
+	"description": "Backrooms Mod, Careful not to sprint too long ;)",
+	"authors": [
+		"VoidedMC85"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/outofbounds/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.voidedmc85.outofbounds.OutOfBounds"
+		],
+		"client": [
+			"net.voidedmc85.outofbounds.OutOfBoundsClient"
+		],
+		"fabric-datagen": [
+			"net.voidedmc85.outofbounds.OutOfBoundsDataGenerator"
+		],
+		"data-gen": [
+			"net.voidedmc85.outofbounds.datagen.ModWorldGenerator"
+		]
+	},
+	"mixins": [
+		"outofbounds.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

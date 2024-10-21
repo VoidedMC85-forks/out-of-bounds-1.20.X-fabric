@@ -1,0 +1,18 @@
+{
+  "type": "outofbounds:level0_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": "1413",
+    "settings": {
+      "layers": [
+        {
+          "name": "empty",
+          "min_y": -30,
+          "height": 240,
+          "block": "minecraft:air"
+        }
+      ],
+      "biome": "minecraft:the_void"
+    }
+  }
+}

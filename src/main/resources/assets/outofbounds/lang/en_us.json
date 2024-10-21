@@ -1,0 +1,14 @@
+{
+  "item.outofbounds.xenon_marble": "Xenon Marble",
+  "item.outofbounds.smiler_repellent": "Smiler Repellent",
+
+  "block.outofbounds.backrooms_wall": "Level 0 Wall",
+  "block.outofbounds.backrooms_ceiling": "Level 0 Ceiling",
+  "block.outofbounds.ceiling_light": "Level 0 Ceiling Light",
+  "block.outofbounds.ceiling_light_on": "Level 0 Ceiling Light On",
+  "block.outofbounds.backrooms_floor": "Level 0 Floor",
+  "block.outofbounds.caution_block": "Caution Block",
+  "block.outofbounds.poolrooms_wall": "Poolrooms Wall",
+
+  "itemgroup.backrooms": "Out of Bounds"
+}

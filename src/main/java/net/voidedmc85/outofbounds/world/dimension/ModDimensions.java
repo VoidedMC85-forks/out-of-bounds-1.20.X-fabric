@@ -11,7 +11,6 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.World;
 import net.minecraft.world.dimension.DimensionOptions;
 import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.dimension.DimensionTypes;
 import net.voidedmc85.outofbounds.OutOfBounds;
 
 import java.util.OptionalLong;

@@ -9,6 +9,7 @@
   "block.outofbounds.backrooms_floor": "Level 0 Floor",
   "block.outofbounds.caution_block": "Caution Block",
   "block.outofbounds.poolrooms_wall": "Poolrooms Wall",
+  "block.outofbounds.killer_block": "Death Block",
 
   "itemgroup.backrooms": "Out of Bounds"
 }

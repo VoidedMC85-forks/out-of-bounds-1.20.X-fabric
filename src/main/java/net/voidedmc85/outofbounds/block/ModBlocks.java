@@ -26,6 +26,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.REINFORCED_DEEPSLATE)));
     public static final Block POOLROOMS_WALL = registerBlock("poolrooms_wall",
             new Block(FabricBlockSettings.copyOf(Blocks.REINFORCED_DEEPSLATE)));
+    public static final Block KILLER_BLOCK = registerBlock("killer_block",
+            new KillerBlock(FabricBlockSettings.copyOf(Blocks.REINFORCED_DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

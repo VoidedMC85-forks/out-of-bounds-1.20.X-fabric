@@ -56,7 +56,10 @@ public class OutOfBounds implements ModInitializer {
 	}
 
 	private void handleSprinting(ServerPlayerEntity player) {
-		if (random.nextFloat() < (OutOfBoundsConfig.getTeleportChance() / 100)) {
+		float chance = OutOfBoundsConfig.getTeleportChance();
+		LOGGER.info("Teleport chance: ", + chance);
+		if (random.nextFloat() < (chance / 100.0f)) {
+			LOGGER.info("Teleporting player to dimension...");
 			teleportPlayer(player);
 		}
 	}
